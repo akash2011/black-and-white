@@ -1,3 +1,3 @@
-odoysoft
+skytheme
 ========
-Odoy Soft Drupal Theme Development.
+skytheme
