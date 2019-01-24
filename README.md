@@ -1,3 +1,3 @@
-skytheme
+Black and White Template
 ========
-skytheme
+Full Black and White template.
