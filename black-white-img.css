@@ -1,7 +1,7 @@
 html, body{
 	font-family: 'Thasadith', sans-serif;
 	background: #0b5492;
-	background-image:url('images/black/bg1-mobile.jpg');
+	background-image:url('images/bg1-mobile.jpg');
 	background-size: cover;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;	
@@ -96,7 +96,7 @@ pre,code{
 @media(min-width:320px){
 	html, body{
 		background: #0b5492;
-		background-image:url('images/black/bg1-mobile.jpg');
+		background-image:url('images/bg1-mobile.jpg');
 		background-size: cover;		
 	}
 	h1{
@@ -204,7 +204,7 @@ pre,code{
 @media(min-width:1024px){
 	html,body{
 		background: #0b5492;
-		background-image:url('images/black/bg1.jpg');
+		background-image:url('images/bg1.jpg');
 		background-size: cover;	
 	}
 	h1{
