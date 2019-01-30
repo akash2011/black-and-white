@@ -1,66 +1,539 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-  <meta charset="utf-8">
-  <title>Akash</title>
-  <meta name="description" content="The HTML5 Sample Code by Ashraful kabir">
-  <meta name="author" content="Ashraful kabir">
-  <!-- font awesome-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- css for animate -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Thasadith:700" rel="stylesheet">
-  <!-- reset css-->
-  <link rel="stylesheet" href="reset.css">
-  <!-- Custom stylesheet -->
-  <link rel="stylesheet" href="black-white-img.css">
-
+  <meta charset="UTF-8">
+  <title>Ashraful Kabir:Front End Developer</title> 
+  <!-- normalize minimum css--> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <!-- Fullpage minimum css-->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css'>
+  <!--Font awesome css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!--Custom stylesheet-->
+  <link rel="stylesheet" href="style.css">  
 </head>
 
-<body>
-<section>
-  <div class="container  animated fadeIn">
-    <h1 class="site__title">Akash  </h1>
-    <div class="text">
-      <div class="hero-text">      
-        <h1>Coming Soon</h1>
-        <p>
-            We are busy working on something awesome. 
-            <br>Back Soon. Stay Tuned.
-        </p>
-        <form action="#" id="notifyMe" method="POST">
-             <div class="form-group">
-        <div class="controls">				                          
-           <!-- Field  -->
-           <input type="text" id="mail-sub" name="email" placeholder="Your email to stay tuned!" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email to stay tuned!'" class="form-control email srequiredField">
-                     <!-- Button  -->
-                     <button class="btn btn-lg submit">Notify Me</button>
-                     <div class="clear"></div>
-                 </div>
-             </div>
-         </form>
+<body> 
+    <header class="header">
+        <div class="container"> 
+            <a href="#section1" class="logo" title="Ashraful Kabir">
+                <img src="images/ashraful-kabir.png" alt="Ashraful kabir">
+            </a>            
+        </div>
+    </header>
+    <!-- End of header -->
+
+    <div id="fullpage">  
+
+        <div class="section" id="section1">
+            <div class="section-content">
+                <div class="home-logo"><img src="images/ashraful-kabir-logo21.png" alt="Ashraful kabir"></div>       
+                <h1>Hey! I'm Ashraful Kabir</h1>
+                <h2>Web Developer Based in New York City</h2>
+                <p>Thanks for visiting my website</p>
+                <div class="social-media">
+                    <ul class="social-media-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    
+                    </ul>
+                </div>
+                <!-- End of social media icons -->
+            </div>
+        </div>
+        <!--End of first section-->
+
+    <div class="section" id="section2">
+    
+        <div class="container">
+            <h1>About</h1>          
+            <div class="about-content">
+                <img src="images/ashraful-kabir.jpg" class="ashraful" alt="Ashraful Kabir">
+            </div>
+            <!-- End of About image -->
+            <div class="about-content">
+                <p>
+                    I am a Full Stack Web Developer based in New York City. 
+                    I have graduated from American International University-Bangladesh (AIUB) in 2010. 
+                    My major was Software Engineering. I have 8 years commercial experience providing
+                    Front End and Back End Development, producing high quality responsive websites and exceptional user experience.
+                </p>
+                <p>
+                    Love to coding, reading book(specially science fiction), writing, travelling, watching movie. 
+                    I am proficient in HTML5, CSS3, Javascript, jQuery, Ajax, Bootstrap 3.0,
+                    Bootstrap 4.0, PHP, Mysql. Expert on Wordpress theme design from scratch. Good at Drupal 
+                    theme design from scratch. Love to work with Codeigniter. Good at Magento theme design and customization. 
+                </p>
+                <p>  
+                    I have professional hands on Search Engine Optimization(SEO), Google adwords campaign, Google Analytics,
+                    Facebook, twitter, instagram, Google Map, Youtube api, and vimeo api integration.
+                </p>
+                <div class="social-media">                    
+                    <ul class="social-media-icons">
+                        <b>Connect me on: </b>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    
+                    </ul>
+                </div>
+            </div>
+            <!-- End of About content -->
+        </div>
+        <!--End of container -->
+    </div>
+    <!--End of second section-->
+
+  <div class="section" id="section3">
+    
+    <div class="container">
+            <h1>Experiences</h1>
+        <div class="experiences-content">                
+
+                <div class="m-content">                   
+                                        
+                    <ul class="m-timeline">
+                        <li>
+                        <div class="m-timeline__date">
+                            Oraiko Corp. (01/22/2018 - Present)
+                        </div>
+                        <p>
+                           Web Developer.
+                        </p>
+                        </li>
+
+                        <li>
+                        <div class="m-timeline__date">
+                           The New York Times (05/08/2017 - 01/18/2018)
+                        </div>
+                        <p>Front End Developer</p>
+                        </li>
+                        <li>
+                        <div class="m-timeline__date">
+                            Pulse Creative (05/04/2015 - 11/30/2016)
+                        </div>
+
+                        <p>
+                            Web Developer
+                        </p>
+                        </li>
+
+                        <li>
+                        <div class="m-timeline__date">
+                            World Mall Bridal Dreams (10/30/2014 - 05/01/2015)
+                        </div>
+
+                        <p>
+                            Web Administrator
+                        </p>
+                        </li>
+                        <li>
+                        <div class="m-timeline__date">
+                           Upwork (09/22/2012 - 09/18/20104)
+                        </div>
+
+                        <p>
+                             Freelance Web Developer
+                        </p>
+                        </li>
+                        <li>
+                        <div class="m-timeline__date">
+                           ISSIT Ltd.(02/10/2011 - 01/30/2012)
+                        </div>
+
+                        <p>
+                            Web Developer
+                        </p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>                  
+    
+        </div>
+        <!--End of container -->
+    </div>  
+    <!--End of third section-->
+
+  <div class="section" id="section4">
+
+    <div class="container">
+             <h1>skills</h1>
+            <div class="row">
+
+                <div class="skills-content">
+                    <ul class="no-bullets">
+                        <li>
+                            <span class="ability-title">HTML(5)</span>
+                                <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>					
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <span class="ability-title">CSS(3)</span>
+                                <span class="ability-score">				
+                                    <i class="fa fa-star" aria-hidden="true"></i>			
+                                    <i class="fa fa-star" aria-hidden="false"></i>
+                                    <i class="fa fa-star" aria-hidden="false"></i>
+                                    <i class="fa fa-star" aria-hidden="false"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>					
+                                </span>		
+                            </span>
+                        </li>
+                        <li>
+                            <span class="ability-title">PHP</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>
+                        <li>
+                            <span class="ability-title">MySQL</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>
+                        <li>
+                            <span class="ability-title">Javascript</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>
+                        <li>
+                            <span class="ability-title">JQuery</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li> 
+                        <li>
+                            <span class="ability-title">XML</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>                
+                                            
+                    </ul>
+                </div>
+                <div class="skills-content">
+                    <ul class="no-bullets">
+                        <li>
+                            <span class="ability-title">JSON</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>
+                            
+                            
+                        <li>
+                            <span class="ability-title">Bootstrap Framework</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>					
+                            </span>
+                        </li>
+                        <li>
+                            <span class="ability-title">SASS / SCSS</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>					
+                            </span>
+                        </li>			
+                        <li>
+                            <span class="ability-title">MVC Pattern</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>	                            
+                            
+                            
+                        <li>
+                            <span class="ability-title">OO Programming</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>		
+                            
+                            
+                        <li>
+                            <span class="ability-title">SEO</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>
+                        <li>
+                            <span class="ability-title">Google Analytics</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>				
+                    
+                        
+                    </ul>
+                </div>
+
+                <div class="skills-content">
+                    <ul class="no-bullets">	
+                        <li>
+                            <span class="ability-title">Agile</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>
+                
+                            
+                        <li>
+                            <span class="ability-title">UML</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <span class="ability-title">Wordpress</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>                   			
+                        <li>
+                            <span class="ability-title">Drupal</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>	
+                        
+            
+                        <li>
+                            <span class="ability-title">Magento</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>	
+                        <li>
+                            <span class="ability-title">AngularJS</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="true"></i>			
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>					
+                            </span>
+                        </li>		
+                                
+                            
+                        <li>
+                            <span class="ability-title">React JS</span>
+                            <span class="ability-score">				
+                                <i class="fa fa-star" aria-hidden="false"></i>			
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="false"></i>
+                                <i class="fa fa-star-o" aria-hidden="false"></i>					
+                            </span>
+                        </li>
+                
+                    </ul>
+                </div>            
+                    
+            </div>
+
+                <div class="js-certification">
+                    <!-- BEGIN NCSA LINKING CODE--> 
+                    <a href="http://www.ncsacademy.com/verifycert.cfm?cert=5224221" target="_blank">
+                    <img src="http://www.ncsacademy.com/buttons/javascripta.jpg" border="0"> 
+                    </a> 
+                    <!-- END NCSA LINKING CODE-->     
+                </div>  
+                <!-- End of JS Certification -->
+
+        </div>
+        <!-- End of container -->    
         
-      
-      </div>
-    </div>
-    <div class="social-icons">
-      <ul>
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-      </ul>    
+    </div>  
+    <!--End of fourth section-->
+
+  <div class="section" id="section5">
+        <h1>Blog</h1>
+        <div class="container">        
+                <div class="column" style="background-color:#aaa;">
+                    <div class="featured-img">
+                        <img src="images/bghome2.jpeg" alt="">
+                    </div>
+                    <h2>What is Lorem Ipsum?</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book. <a href="#"><span class="learn-more"> [...]</span></a>
+                        <hr>
+                        <span class="published-by">Published by Ashraful, </span>
+                        <a href=""><span class="comments"><i class="fa fa-comments-o"></i>5</span></a>
+                        <span><i class="fa fa-calendar"></i></span>
+                    </p>
+                </div>
+                <!-- End of Blog column -->
+                <div class="column" style="background-color:#bbb;">
+                    <div class="featured-img">
+                        <img src="images/bghome2.jpeg" alt="">
+                    </div>
+                    <h2>Why do we use it?</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book.<a href="#"><span class="learn-more"> [...]</span></a>
+
+                        <hr>
+                        <span class="published-by">Published by Ashraful, </span>
+                        <a href=""><span class="comments"><i class="fa fa-comments-o"></i>5</span></a>
+                        <span><i class="fa fa-calendar"></i></span>
+
+                    </p>
+                </div>
+                <!-- End of Blog column -->
+
+                <div class="column" style="background-color:#ccc;">
+                    <div class="featured-img">
+                        <img src="images/bghome2.jpeg" alt="">
+                    </div>
+                    <h2>Where does it come from?</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book.<a href="#"><span class="learn-more"> [...]</span></a>
+
+                        <hr>
+                        <span class="published-by">Published by Ashraful, </span>
+                        <a href=""><span class="comments"><i class="fa fa-comments-o"></i>5</span></a>
+                        <span><i class="fa fa-calendar"></i></span>
+                    </p>
+                </div>
+                <!-- End of Blog column -->        
+        </div>
+        <!-- End of container -->
 
     </div>
-  </div>
-</section>
-<!-- End of section -->
+    <!--End of fifth section-->
 
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
-<!--Custom Js -->
-<script src="custom.js"></script>
+    <div class="section" id="section6">
+        
+        <div class="container">  
+            <form id="contact" action="" method="post">
+                 <h1>Get in touch</h1>                
+                <fieldset>
+                    <input placeholder="Full Name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Email Address" type="email" tabindex="2" required>
+                </fieldset>                
+                <fieldset>
+                    <input placeholder="Subject (optional)" type="url" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+                    
+            </form>
+            <!-- End of Contact Form -->
+            <div class="copyright">
+                &copy  <span id="year"></span> Ashraful Kabir.  
+            </div>
+        </div>
+        <!-- End of Container -->
+    </div>
+    <!--End of sixth section-->
+
+</div>
+<!--End of full page-->
+
+<!--- JQuery library-->
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+<!---Fullpage minimum js-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script>
+
+<script src='https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007714979/custom/page/hack-a-thon-3/masonry.min.min.js'></script>
+<script src='https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007849180/custom/page/hack-a-thon-3/isotope.min.js'></script>
+
+<!--Custom javascript-->
+<script  src="custom.js"></script>
+
 </body>
 </html>
